@@ -10,13 +10,18 @@ import Foundation
 
 class WeatherModel: NSObject {
     
-    var lat             :Double!
-    var lon             :Double!
-    var icon            :String!
-    var temp            :Double!
-    var apparentTemp    :Double!
+    var lat             :Double?
+    var lon             :Double?
+    var time            :Double?
+    var icon            :String?
+    var temp            :Int?
+    var apparentTemp    :Int?
     
-    convenience init(lat: Double, lon: Double, icon: String, temp: Double, apparentTemp: Double) {
+    var convertedTime :Date? {
+        return Date(timeIntervalSince1970: time!)
+    }
+    
+    convenience init(lat: Double, lon: Double, time: Double, icon: String, temp: Int, apparentTemp: Int) {
         
         self.init()
         self.lat = lat

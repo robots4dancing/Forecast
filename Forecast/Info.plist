@@ -43,5 +43,7 @@
 	</array>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>I need it!</string>
 </dict>
 </plist>

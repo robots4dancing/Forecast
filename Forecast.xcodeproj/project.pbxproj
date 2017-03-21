@@ -99,6 +99,7 @@
 				TargetAttributes = {
 					4BE7E8731E80A42A008DA888 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9N6M5Y8VH3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -264,6 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6M5Y8VH3;
 				INFOPLIST_FILE = Forecast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wccnet.edu.sempie.Forecast;
@@ -276,6 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9N6M5Y8VH3;
 				INFOPLIST_FILE = Forecast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wccnet.edu.sempie.Forecast;
