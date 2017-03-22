@@ -157,11 +157,11 @@ class ViewController: UIViewController {
             print("Lat: \(currentWeather.lat), Lon: \(currentWeather.lon)")
             print("Date: \(currentWeather.convertedTime), Icon: \(currentWeather.icon)")
             print("Temp: \(currentWeather.temp), Feels Like: \(currentWeather.apparentTemp)")
-            setWeatherIcon(wIcon: currentWeather.icon!)
-            updateDisplay()
             DispatchQueue.main.async {
                 
                 UIApplication.shared.isNetworkActivityIndicatorVisible = false
+                self.updateDisplay()
+                self.setWeatherIcon(wIcon: self.currentWeather.icon!)
                 
             }
             
